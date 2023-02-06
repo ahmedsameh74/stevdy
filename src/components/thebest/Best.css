@@ -1,0 +1,125 @@
+.best {
+    background: url('../../assets/images/blob2.svg') no-repeat;
+        background-position: 711px;
+            background-size: 101% 110%;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            color: #000;
+            width: 100%;
+            padding: 10% 54px;
+            box-sizing: border-box;
+            margin-top: -40px;
+}
+
+.best .imgcontainer {
+    right: 0;
+    text-align: end;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.best .report {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.best .report img {
+    width: 70%;
+}
+
+.best .report-left {
+    position: relative;
+    text-align: start;
+    margin-left: 5rem;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.best .report-left h2 {
+    /* font-size: 2.5rem; */
+    width: 90%;
+    font-weight: 900;
+    margin-bottom: 0;
+    color: #3B3A3A !important;
+}
+
+.best .report-left p {
+    color: #8F8F8F;
+    font-weight: 200;
+}
+
+.best .report-left p:nth-child(3) {
+    color: #FF6057;
+    font-weight: 500;
+}
+
+.best .report-left::after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    border-radius: 10px;
+    left: 0;
+    width: 20%;
+    height: 5px;
+    background: #FF6057;
+}
+
+@media screen and (max-width: 768px) {
+    .best {
+        grid-template-columns: 1fr;
+        padding: 10% 0;
+        background-position: 0;
+        background-size: 100% 100%;
+        /* gap: 10px; */
+    }
+    
+    .best .imgcontainer {
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .best .report {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .best .report img {
+        width: 70%;
+    }
+    
+    .best .report-left {
+        position: relative;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 60px;
+        width: 100%;
+    }
+    
+    .best .report-left h2 {
+        /* font-size: 2.5rem; */
+        width: 100%;
+        font-weight: 900;
+        margin-bottom: 0;
+        color: #3B3A3A !important;
+    }
+    
+    .best .report-left p {
+        color: #3B3A3A;
+        font-weight: 200;
+    }
+    
+    .best .report-left p:nth-child(3) {
+        color: #fff;
+        font-weight: 500;
+    }
+    
+    .best .report-left::after {
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 20px;
+    }
+}
