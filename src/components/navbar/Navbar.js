@@ -13,7 +13,7 @@ const links = [
 ];
 
 const Navbar = () => {
-  const [menu, setMenu] = useState(false)
+  const [menu, setMenu] = useState(null)
 
   useEffect(() => {
     menu

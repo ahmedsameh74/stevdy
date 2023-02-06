@@ -207,7 +207,7 @@
     }
 
     .solution .right {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
