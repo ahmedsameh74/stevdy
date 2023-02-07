@@ -1,8 +1,6 @@
-import React, { useState } from "react";
 import "./Footer.css";
 
 export default function Footer() {
-  const [tab, setTab] = useState("");
 
   return (
     <div className="footer">
