@@ -77,7 +77,7 @@
     position: relative;
     text-align: start;
     margin-left: 5rem;
-    margin-top: 60px;
+    margin-top: 105px;
 }
 
 .grow .report-left h2 {
@@ -106,6 +106,7 @@
             border-radius: 10px;
             cursor: pointer;
             box-sizing: border-box;
+            margin-top: 20px;
         
 }
 
