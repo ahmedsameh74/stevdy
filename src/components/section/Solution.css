@@ -17,6 +17,7 @@
     /* flex-wrap: wrap; */
     padding: 10% 100px;
     box-sizing: border-box;
+    margin-bottom: 100px;
 }
 
 .top-grid {
@@ -174,7 +175,11 @@
         padding: 10% 0;
         background-position: 0 0;
         background-size: cover;
-        margin: 20px auto;
+        margin: 20px auto 1545px auto;
+    }
+
+    .solution .report-left {
+        margin-top: 1.5rem !important;
     }
 
     .top-grid, .bottom-grid {
@@ -183,6 +188,12 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
+    }
+
+    .top-grid {
+        display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 1fr;
     }
 
     .solution .left {
@@ -221,13 +232,12 @@
         margin: 0 auto;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
-        margin-top: 10px;
-        grid-area: right;
+        /* margin-top: 10px; */
 
     }
 
     .solution .right .card {
-        width: 50%;
+        width: 80%;
         margin: 0 auto;
         margin-top: 10px;
         text-align: center;
