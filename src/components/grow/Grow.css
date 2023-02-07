@@ -128,7 +128,7 @@
             color: #fff;
             width: 5px;
             /* border-radius: 50%; */
-            margin-left: -75px;
+            margin-left: -80px;
             display: flex;
             align-items: center;
             height: 75px;
@@ -148,7 +148,7 @@
             content: "1";
             position: absolute;
             color: #fff;
-            width: 50px;
+            width: 60px;
             border-radius: 50%;
             margin-left: 50px;
             display: flex;
