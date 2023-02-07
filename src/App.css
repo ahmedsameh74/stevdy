@@ -90,7 +90,8 @@
   }
 
     .report-left p:nth-child(3) {
-      width: 75%;
+      width: 100%;
+      justify-content: center;
     }
 
   .report-left::after {

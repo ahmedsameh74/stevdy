@@ -29,7 +29,6 @@
 }
 
 .logo span {
-    /* border-top: 1px solid #000; */
     position: relative;
 }
 
@@ -86,15 +85,11 @@
     .menu {
         display: block;
         cursor: pointer;
-        /* position: fixed; */
-        /* right: 0; */
     }
 
     .menu img {
         filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 1));
     }
-
-    
 }
 
 .none {
@@ -109,9 +104,6 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    /* top: 0;
-    left: 0;
-    bottom: 0; */
     background-color: #fff;
     color: #000;
     position: fixed;
@@ -125,14 +117,10 @@
 .l-navbar-oppo {
     animation-name: scaleXoppo;
     animation-duration: 0.5s;
-    /* display: none; */
         flex-direction: column;
         align-items: center;
         justify-content: center;
         height: 100%;
-        /* top: 0;
-        left: 0;
-        bottom: 0; */
         background-color: #fff;
         color: #000;
         position: fixed;
@@ -148,7 +136,6 @@
     align-items: center;
     justify-content: center;
     padding: 10px 0 10px 10px;
-    /* border-bottom: 1px solid #000; */
     width: 100%;
     cursor: pointer;
     animation-name: display;
@@ -170,24 +157,12 @@
 @keyframes display {
     from {
         display: none;
-        /* transform: translateX(-1rem); */
     }
 
     to {
         display: flex;
-        /* transform: translateX(0); */
     }
 }
-
-/* @keyframes display-oppo {
-    from {
-        display: flex;
-    }
-
-    to {
-        display: none;
-    }
-} */
 
 @keyframes scaleX {
     from {

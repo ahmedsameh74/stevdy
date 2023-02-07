@@ -51,35 +51,44 @@ const Solution = () => {
 
   return (
     <div className="solution" id="Bootcamps">
-    <MainCard
-              className={'left'}
-              title={'The best business solution for you'}
-              content={'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet'}
-    />
-      
-      <div className="right">
-        {cards.map((card) => (
-          <Card
-            icon={card.icon}
-            title={card.title}
-            color={card.color}
-            text={card.text}
-            key={card.title}
-          />
-        ))}
+      <div className="top-grid">
+        <MainCard
+          className={"left"}
+          title={"The best business solution for you"}
+          content={
+            "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet"
+          }
+        />
+
+        <div className="right">
+          {cards.map((card) => (
+            <Card
+              icon={card.icon}
+              title={card.title}
+              color={card.color}
+              text={card.text}
+              key={card.title}
+            />
+          ))}
+        </div>
       </div>
 
-      <div className="imgcontainer">
-        <img src={Report} alt="report" />
+      <div className="bottom-grid">
+        <div className="report">
+          <div className="imgcontainer">
+            <img src={Report} alt="report" />
+          </div>
+        </div>
+
+        <MainCard
+          className={"report-left"}
+          style={{ marginTop: "1.5rem" }}
+          title={"Best Platform for the Technological Era"}
+          content={
+            "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet"
+          }
+        />
       </div>
-
-          <MainCard
-              className={'report-left'}
-              style={{marginTop: '10rem'}}
-              title={'Best Platform for the Technological Era'}
-              content={'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet'}
-    />
-
     </div>
   );
 }
