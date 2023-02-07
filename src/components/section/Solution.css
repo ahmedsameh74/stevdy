@@ -173,7 +173,7 @@
 }
 
 .solution .report-left::after {
-    top: 0;
+    top: 40px;
 }
 
 .imgcontainer img {
