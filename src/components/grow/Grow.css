@@ -68,7 +68,7 @@
             justify-content: center;
 }
 
-.grow .dif-card:nth-child(3) p::after {
+.grow .dif-card:nth-child(3) p .vertical-line {
     all:unset;
 }
 

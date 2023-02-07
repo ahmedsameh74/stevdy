@@ -34,7 +34,7 @@ const Grow = () => {
       </div>
 
       <div className="report">
-      {Array.from('ahmed').map((item, index) => {
+      {Array.from('123').map((item, index) => {
         return <Card key={index} number={index+1} line={true} />
       })}
       </div>
