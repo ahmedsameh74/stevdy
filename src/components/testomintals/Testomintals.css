@@ -246,5 +246,13 @@
                     filter: none;
                     margin-bottom: 35px !important;
                 }
-    
+        .testomintals-section .report-left h2 {
+            /* font-size: 2.5rem; */
+            text-align: center;
+        }
+
+                .testomintals-section .report-left  {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
 }
