@@ -49,7 +49,9 @@ const Navbar = () => {
         <button>About us</button>
       </div>
 
-      <div className="menu" onClick={() => setMenu(!menu)}>
+      <div className="menu" onClick={() => {
+        setMenu(!menu)
+        }}>
         <img src={!scroll ? Menu : Menuw} alt="menu" />
       </div>
 

@@ -11,12 +11,13 @@
     width: 100%;
     box-sizing: border-box;
     position: fixed;
+    z-index: 5000;
 }
 
 .scroll {
     background: linear-gradient(-90deg, rgba(124, 28, 128, 0.66) 0.00%, #ff6057 100.00%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    z-index: 9999;
+    
 }
 
 .menu {
