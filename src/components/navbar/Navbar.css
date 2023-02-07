@@ -20,6 +20,10 @@
     
 }
 
+.scroll .center a:last-child {
+    color: #fff !important;
+}
+
 .menu {
     display: none;
 }
@@ -54,7 +58,7 @@
     margin-left: -150px;
 }
 
-.right button {
+.navbar .right button {
     background: linear-gradient(-90deg, rgba(124, 28, 128, 0.66) 0.00%, #ff6057 100.00%);
         border: none;
         padding: 10px 30px;
@@ -198,6 +202,26 @@
 
 @media screen and (max-width: 956px) {
     .center {
-        display: none;
-    }
+            margin-left: 20px;
+    
+        }
+}
+@media screen and (max-width: 948px) {
+    .center {
+            margin-left: 0;
+    
+        }
+}
+@media screen and (max-width: 920px) {
+    .center {
+            display: none;
+    
+        }
+        .menu {
+            display: block;
+            cursor: pointer;
+        }
+        .navbar .right {
+            display: none;
+        }
 }
