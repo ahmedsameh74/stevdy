@@ -7,6 +7,7 @@ import Home from './components/home/Home';
 import Navbar from './components/navbar/Navbar';
 import Report from './components/report/Report';
 import Solution from './components/section/Solution';
+import Testomintals from './components/testomintals/Testomintals';
 import Best from './components/thebest/Best';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Report/>
       <Best/>
       <Grow/>
+      <Testomintals/>
       <Footer/>
     </div>
   );

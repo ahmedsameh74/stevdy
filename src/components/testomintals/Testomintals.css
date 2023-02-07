@@ -1,0 +1,202 @@
+.testomintal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.testomintal h2 {
+    font-size: 40px;
+        font-weight: 700;
+        color: #3B3A3A;
+        margin-bottom: 20px;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+}
+
+.statics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.static {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.static h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FF6057;
+    margin: 0;
+}
+
+.static p {
+    font-size: 20px;
+    font-weight: 200;
+    color: #8F8F8F;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.testomintals-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.test-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 290px;
+    margin: 0 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+}
+
+.testomintals-section .test-card .img {
+    /* width: 100%; */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.testomintals-section .test-card .img  img{
+    width: 250px;
+}
+
+.testomintals-section .test-card .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    width: 100%;
+    /* height: 150px; */
+    padding: 20px;
+}
+
+.testomintals-section .test-card .content h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #3B3A3A;
+    margin: 0;
+}
+
+.test-card .content p {
+    font-size: 16px;
+    font-weight: 200;
+    color: #8F8F8F;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
+
+.report-left {
+    position: relative;
+    text-align: start;
+    margin-left: 5rem;
+    margin-top: 60px;
+    width: 80%;
+}
+
+.report-left h2 {
+    /* font-size: 2.5rem; */
+    text-align: start;
+    width: 100%;
+    font-weight: 900;
+    margin-bottom: 0;
+    color: #3B3A3A !important;
+}
+
+.report-left p {
+    color: #8F8F8F;
+    font-weight: 200;
+}
+
+
+
+.report-left button {
+    background: linear-gradient(-90deg, rgba(124, 28, 128, 0.66) 0.00%, #ff6057 100.00%);
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+
+}
+
+.carousel-container {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .testomintal h2 {
+            font-size: 20px;
+            width: 100%;
+        }
+
+        .statics {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .testomintals-section{
+            grid-template-columns: 1fr;
+        }
+
+        .report-left {
+            text-align: center;
+            align-items: center;
+            margin: 50px auto;
+        }
+
+        .report-left h2 {
+            text-align: center;
+            width: 100%;
+        }
+
+        .test-card {
+            width: 100%;
+            margin: 0 20px;
+            height: 430px;
+            flex-direction: column;
+        }
+
+        .test-card .content {
+            width: 100%;
+            padding: 20px;
+        }
+
+        .test-card h3 {
+            text-align: center;
+            width: 100%;
+        }
+
+        .stars {
+            display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+        }
+
+        .test-card .img {
+            width: 100%;
+            margin: 0;
+        }
+    
+}

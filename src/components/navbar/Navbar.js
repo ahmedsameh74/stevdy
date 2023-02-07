@@ -10,7 +10,7 @@ const links = [
   { name: "Browsers", href: "#home" },
   { name: "Bootcamps", href: "#Bootcamps" },
   { name: "How it works", href: "#" },
-  { name: "Testominials", href: "#" },
+  { name: "Testominials", href: "#Testominials" },
 ];
 
 const Navbar = () => {
