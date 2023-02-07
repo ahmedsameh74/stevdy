@@ -86,8 +86,8 @@ const Testomintals = () => {
           // autoPlaySpeed={2000}
         >
           {slideContent.map((slide, index) => (
-            <div className="test">
-              <div className="test-card" key={index}>
+            <div className="test" key={index}>
+              <div className="test-card">
                 <div className="img">
                   <img src={slide.path} alt={slide.path} />
                 </div>

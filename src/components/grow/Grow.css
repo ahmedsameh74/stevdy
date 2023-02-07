@@ -21,17 +21,17 @@
     justify-content: center;
 }
 
-.grow .dif-card h3 {
+.grow .dif-card .h3 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
-.grow .dif-card h3, .grow .dif-card p {
+.grow .dif-card .h3, .grow .dif-card .p {
     position: relative;
 }
 
-.grow .dif-card p {
+.grow .dif-card .p {
     width: 70%;
     color: #8F8F8F;
     display: flex;
@@ -40,7 +40,7 @@
     font-weight: 200;
 }
 
-.grow .dif-card h3 .circle {
+.grow .dif-card .h3 .circle {
         color: #fff;
             width: 50px;
             border-radius: 50%;
@@ -55,7 +55,7 @@
             justify-content: center;
 }
 
-.grow .dif-card p .vertical-line {
+.grow .dif-card .p .vertical-line {
         width: 5px;
             /* border-radius: 50%; */
             margin-left: -33px;
@@ -68,7 +68,7 @@
             justify-content: center;
 }
 
-.grow .dif-card:nth-child(3) p .vertical-line {
+.grow .dif-card:nth-child(3) .p .vertical-line {
     all:unset;
 }
 
@@ -124,7 +124,7 @@
         width: 100%;
     }
 
-    .grow .dif-card p {
+    .grow .dif-card .p {
             width: 90%;
             padding: 0 2px;
             margin: 0 auto;
@@ -133,7 +133,7 @@
 
         
 
-    .grow .dif-card h3 {
+    .grow .dif-card .h3 {
     text-align: center;
     justify-content: center;
         width: 100%;

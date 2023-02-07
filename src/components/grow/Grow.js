@@ -3,15 +3,15 @@ import "./Grow.css";
 const Card = ({number, line}) => {
   return (
     <div className="dif-card">
-      <h3>
+      <div className="h3">
         <div className="circle">{number}</div> Market Research
-      </h3>
-      <p>
+      </div>
+      <div className="p">
         {line && <div className="vertical-line"></div>}
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
         voluptua.
-      </p>
+      </div>
     </div>
   );
 }
