@@ -82,7 +82,7 @@ const Testomintals = () => {
           draggable
           dotListClass="custom-dot-list-style"
           arrows={false}
-          // autoPlay
+          autoPlay
           // autoPlaySpeed={2000}
         >
           {slideContent.map((slide, index) => (
