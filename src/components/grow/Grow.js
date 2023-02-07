@@ -1,7 +1,6 @@
 import "./Grow.css";
 
-import arrow from "../../assets/icons/right-arrow.svg";
-import Report from "../../assets/images/example.svg";
+
 
 const Grow = () => {
   return (
