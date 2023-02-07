@@ -5,11 +5,12 @@ import { useEffect, useState } from 'react';
 
 import Menu from "../../assets/icons/menu-black.svg";
 import Menuw from "../../assets/icons/menu.svg";
+import Close from "../../assets/icons/close.svg";
 
 const links = [
   { name: "Browsers", href: "#home" },
   { name: "Bootcamps", href: "#Bootcamps" },
-  { name: "How it works", href: "#" },
+  { name: "How it works", href: "#how" },
   { name: "Testominials", href: "#Testominials" },
 ];
 
@@ -29,6 +30,10 @@ const Navbar = () => {
       ? (document.body.style.overflow = "hidden")
       : (document.body.style.overflow = "unset");
   }, [menu]);
+
+  const src =  menu === null ? Menu : menu === true ? Close : Menuw
+    
+  
 
 
   return (
@@ -52,7 +57,7 @@ const Navbar = () => {
       <div className="menu" onClick={() => {
         setMenu(!menu)
         }}>
-        <img src={!scroll ? Menu : Menuw} alt="menu" />
+        <img src={src} alt="menu" />
       </div>
 
       <div

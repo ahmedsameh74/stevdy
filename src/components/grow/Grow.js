@@ -20,7 +20,7 @@ const Card = ({number, line}) => {
 
 const Grow = () => {
   return (
-    <div className="grow">
+    <div className="grow" id="how">
       <div className="report-left">
         <h2>Acceleration Process to Grow Your Business</h2>
         <p>
