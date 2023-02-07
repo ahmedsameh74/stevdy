@@ -4,8 +4,9 @@ import eye from '../../assets/icons/eye.svg'
 import b from '../../assets/icons/b.svg'
 import quality from '../../assets/icons/highq.svg'
 import bag from '../../assets/icons/bag.svg'
-import arrow from '../../assets/icons/right-arrow.svg'
 import Report from "../../assets/images/example.svg";
+
+import MainCard from '../MainCard'
 
 const Card = ({ icon, title, text, color }) => {
   return (
@@ -50,19 +51,12 @@ const Solution = () => {
 
   return (
     <div className="solution" id="Bootcamps">
-      <div className="left">
-        <h2>The best business solution for you</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet
-        </p>
-        <p>
-          Learn About Our Success <img src={arrow} alt="" />
-        </p>
-      </div>
+    <MainCard
+              className={'left'}
+              title={'The best business solution for you'}
+              content={'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet'}
+    />
+      
       <div className="right">
         {cards.map((card) => (
           <Card
@@ -75,25 +69,17 @@ const Solution = () => {
         ))}
       </div>
 
-      {/* <div className="report"> */}
       <div className="imgcontainer">
         <img src={Report} alt="report" />
       </div>
-      {/* </div> */}
 
-      <div className="report-left">
-        <h2>Best Platform for the Technological Era</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet
-        </p>
-        <p>
-          Learn About Our Success <img src={arrow} alt="" />
-        </p>
-      </div>
+          <MainCard
+              className={'report-left'}
+              style={{marginTop: '10rem'}}
+              title={'Best Platform for the Technological Era'}
+              content={'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet'}
+    />
+
     </div>
   );
 }

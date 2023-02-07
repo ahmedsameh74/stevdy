@@ -1,5 +1,5 @@
 //style
-// import './App.css';
+import './App.css';
 //components
 import Footer from './components/footer/Footer';
 import Grow from './components/grow/Grow';

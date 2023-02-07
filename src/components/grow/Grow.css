@@ -45,7 +45,7 @@
     /* bottom: -10px; */
     left: 0;
     justify-content: center;
-    top: 0;
+    top: -10px;
 }
 
 .grow .dif-card p::after {
@@ -63,6 +63,10 @@
         left: 0;
         justify-content: center;
         top: 10px;
+}
+
+.grow .dif-card:nth-child(3) p::after {
+    all:unset;
 }
 
 

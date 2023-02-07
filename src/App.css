@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ .report-left {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 1rem;
+    position: relative;
+    margin-top: 10rem;
 }
 
-.App-link {
-  color: #61dafb;
+ .report-left h1,
+ .report-left p,
+ .report-left h2 {
+   all: unset;
+   text-align: start;
+   letter-spacing: normal;
+   color: #000;
+ }
+
+ .report-left h2 {
+  font-size: 1.5rem;
+  text-align: start;
+  width: 90%;
+  font-weight: 900;
+  margin-bottom: 0;
+  color: #3B3A3A !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ .report-left p {
+  color: #8F8F8F;
+  font-weight: 200;
+  text-align: start;
+}
+
+ .report-left p:nth-child(3) {
+  color: #FF6057;
+    font-weight: 400;
+    width: 70%;
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.report-left p:nth-child(3) img {
+  margin-left: 0.5rem;
+}
+
+ .report-left::after {
+  content: "";
+    position: absolute;
+    top: -30px;
+    border-radius: 10px;
+    left: 0;
+    width: 20%;
+    height: 5px;
+  background: #FF6057;
+}
+
+
+@media screen and (max-width: 768px) {
+  
+
+  .report-left {
+    position: relative;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 60px;
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .report-left h2 {
+    /* font-size: 2.5rem; */
+    width: 100%;
+    font-weight: 900;
+    margin-bottom: 0;
+    color: #3B3A3A !important;
+  }
+
+  .report-left p {
+    color: #3B3A3A;
+    font-weight: 200;
+  }
+
+  .report-left p:nth-child(3) {
+    /* color: #fff; */
+    font-weight: 500;
+  }
+
+  .report-left::after {
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
   }
 }
