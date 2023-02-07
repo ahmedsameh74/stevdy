@@ -195,4 +195,7 @@
         transform: translateX(-50%);
         margin-top: 20px;
     } */
+        .grow .dif-card .p .vertical-line {
+            display: none;
+        }
 }
