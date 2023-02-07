@@ -236,11 +236,12 @@
         left: 50%;
         transform: translateX(-50%);
         background-color: white;
+        box-shadow: 0 0 7.5px rgb(0 0 0 / 16%);
     }
 
     .solution .right .card:nth-child(4) h3::after {
         background-color: #FF6057;
-        
+        box-shadow: 0 0 7.5px rgb(0 0 0 / 16%);
     }
 
     .solution .report-left {
