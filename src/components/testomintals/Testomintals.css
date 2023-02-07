@@ -179,85 +179,7 @@
     filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.07));
 }
 
-@media screen and (max-width: 768px) {
-    .testomintal h2 {
-            font-size: 20px;
-            width: 100%;
-        }
 
-        .statics {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .testomintals-section{
-            grid-template-columns: 1fr;
-        }
-
-        .report-left {
-            text-align: center;
-            align-items: center;
-            margin: 50px auto;
-        }
-
-        .report-left h2 {
-            text-align: center;
-            width: 100%;
-        }
-
-        .test-card {
-            width: 100%;
-            margin: 0 20px;
-            height: 430px;
-            flex-direction: column;
-        }
-
-        .test-card .content {
-            width: 100%;
-            padding: 20px;
-        }
-
-            .testomintals-section .test-card .content h3 {
-            text-align: center;
-            width: 100%;
-            font-size: 2vw;
-        }
-                .testomintals-section .test-card .content p {
-            text-align: center;
-            width: 80%;
-            font-size: 2vw;
-            margin: 5px auto;
-        }
-
-        .stars {
-            display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 100%;
-        }
-
-        .test-card .img {
-            width: 100%;
-            margin: 0;
-        }
-
-                .testomintals-section .react-multi-carousel-track,
-                .carousel-container {
-                    filter: none;
-                    margin-bottom: 35px !important;
-                }
-        .testomintals-section .report-left h2 {
-            /* font-size: 2.5rem; */
-            text-align: center;
-        }
-
-                .testomintals-section .report-left  {
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-}
 
 @media screen and (max-width: 1380px) {
     .testomintals-section .test-card .img img {
@@ -288,4 +210,86 @@
                 .test-card .content p {
                     font-size: 1vw;
                 }
+}
+
+@media screen and (max-width: 768px) {
+    .testomintal h2 {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .statics {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .testomintals-section {
+        grid-template-columns: 1fr;
+    }
+
+    .report-left {
+        text-align: center;
+        align-items: center;
+        margin: 50px auto;
+    }
+
+    .report-left h2 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .test-card {
+        width: 100%;
+        margin: 0 20px;
+        height: 430px;
+        flex-direction: column;
+    }
+
+    .test-card .content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .testomintals-section .test-card .content h3 {
+        text-align: center;
+        width: 100%;
+        font-size: 2vw;
+    }
+
+    .testomintals-section .test-card .content p {
+        text-align: center;
+        width: 80%;
+        font-size: 2vw;
+        margin: 5px auto;
+    }
+
+    .stars {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .test-card .img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .testomintals-section .react-multi-carousel-track,
+    .carousel-container {
+        filter: none;
+        margin-bottom: 35px !important;
+    }
+
+    .testomintals-section .report-left h2 {
+        /* font-size: 2.5rem; */
+        text-align: center;
+    }
+
+    .testomintals-section .report-left {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

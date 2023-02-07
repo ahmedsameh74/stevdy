@@ -57,8 +57,16 @@
 }
 
 
+
+@media screen and (max-width: 995px) {
+.report-left p:nth-child(3) {
+  width: 85%;
+}
+
+}
+
 @media screen and (max-width: 768px) {
-  
+
 
   .report-left {
     position: relative;
@@ -69,7 +77,6 @@
   }
 
   .report-left h2 {
-    /* font-size: 2.5rem; */
     width: 100%;
     font-weight: 900;
     margin-bottom: 0;
@@ -85,25 +92,17 @@
   }
 
   .report-left p:nth-child(3) {
-    /* color: #fff; */
     font-weight: 500;
   }
 
-    .report-left p:nth-child(3) {
-      width: 100%;
-      justify-content: center;
-    }
+  .report-left p:nth-child(3) {
+    width: 100%;
+    justify-content: center;
+  }
 
   .report-left::after {
     left: 50%;
     transform: translateX(-50%);
     margin-top: 20px;
   }
-}
-
-@media screen and (max-width: 995px) {
-.report-left p:nth-child(3) {
-  width: 85%;
-}
-
 }
