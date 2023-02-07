@@ -94,6 +94,21 @@ p {
 }
 
 
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.copyRights {
+    width: 100%;
+    margin: 100px auto;
+    background: #333333;
+    text-align: center;
+}
 
 
 
@@ -150,6 +165,10 @@ p {
             margin: 0 a;
         }
 
+                .copyRights {
+                    margin: 120px auto;
+                }
+
     
 
     
@@ -159,18 +178,3 @@ p {
     
 }
 
-.footer-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.copyRights {
-    width: 100%;
-    margin: 100px auto;
-    background: #333333;
-    text-align: center;
-}

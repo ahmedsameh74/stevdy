@@ -135,6 +135,11 @@
             box-sizing: border-box;
     }
 
+        .grow .dif-card .h3,
+        .grow .dif-card .p {
+            position: relative;
+        }
+
         
 
     .grow .dif-card .h3 {

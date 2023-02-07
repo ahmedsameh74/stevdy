@@ -80,7 +80,7 @@
 }
 
 .testomintals-section .test-card .img  img{
-    width: 250px;
+    max-width: 250px;
 }
 
 .testomintals-section .test-card .content {
@@ -95,7 +95,7 @@
 }
 
 .testomintals-section .test-card .content h3 {
-    font-size: 16px;
+    font-size: 1vw;
     font-weight: 700;
     color: #3B3A3A;
     margin: 0;
@@ -103,7 +103,7 @@
 }
 
 .test-card .content p {
-    font-size: 16px;
+    font-size: .8vw;
     font-weight: 200;
     color: #8F8F8F;
     margin: 0;
@@ -116,7 +116,7 @@
 
 
 
-.report-left {
+.testomintals-section .report-left {
     position: relative;
     text-align: start;
     margin-left: 5rem;
@@ -124,7 +124,7 @@
     width: 80%;
 }
 
-.report-left h2 {
+.testomintals-section .report-left h2 {
     /* font-size: 2.5rem; */
     text-align: start;
     width: 100%;
@@ -133,14 +133,14 @@
     color: #3B3A3A !important;
 }
 
-.report-left p {
+.testomintals-section .report-left p {
     color: #8F8F8F;
     font-weight: 200;
 }
 
 
 
-.report-left button {
+.testomintals-section .report-left button {
     background: linear-gradient(-90deg, rgba(124, 28, 128, 0.66) 0.00%, #ff6057 100.00%);
     border: none;
     padding: 10px 30px;
@@ -217,9 +217,16 @@
             padding: 20px;
         }
 
-        .test-card h3 {
+            .testomintals-section .test-card .content h3 {
             text-align: center;
             width: 100%;
+            font-size: 2vw;
+        }
+                .testomintals-section .test-card .content p {
+            text-align: center;
+            width: 80%;
+            font-size: 2vw;
+            margin: 5px auto;
         }
 
         .stars {
@@ -233,5 +240,11 @@
             width: 100%;
             margin: 0;
         }
+
+                .testomintals-section .react-multi-carousel-track,
+                .carousel-container {
+                    filter: none;
+                    margin-bottom: 35px !important;
+                }
     
 }
