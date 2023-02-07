@@ -186,7 +186,9 @@
         padding: 10% 0;
         background-position: 0 0;
         background-size: cover;
-        margin: 20px auto 1045px auto;
+        /* margin: 20px auto 1045px auto; */
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .solution .report-left {
