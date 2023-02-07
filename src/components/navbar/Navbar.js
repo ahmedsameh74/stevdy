@@ -4,6 +4,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useEffect, useState } from 'react';
 
 import Menu from "../../assets/icons/menu-black.svg";
+import Menuw from "../../assets/icons/menu.svg";
 
 const links = [
   { name: "Browsers", href: "#home" },
@@ -14,8 +15,16 @@ const links = [
 
 const Navbar = () => {
   const [menu, setMenu] = useState(null)
+  const [scroll, setScroll] = useState(false)
 
   useEffect(() => {
+    document.onscroll = () => {
+      if (window.scrollY > 0) {
+        setScroll(true)
+      } else {
+        setScroll(false)
+      }
+    }
     menu
       ? (document.body.style.overflow = "hidden")
       : (document.body.style.overflow = "unset");
@@ -23,7 +32,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="navbar">
+    <div className={scroll ? "navbar scroll" : 'navbar'}>
       <div className="logo">
         <h1>
           ST<span>v</span>DY
@@ -41,7 +50,7 @@ const Navbar = () => {
       </div>
 
       <div className="menu" onClick={() => setMenu(!menu)}>
-        <img src={Menu} alt="menu" />
+        <img src={!scroll ? Menu : Menuw} alt="menu" />
       </div>
 
       <div
