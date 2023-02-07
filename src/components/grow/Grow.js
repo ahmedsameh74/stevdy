@@ -1,5 +1,21 @@
 import "./Grow.css";
 
+const Card = ({number, line}) => {
+  return (
+    <div className="dif-card">
+      <h3>
+        <div className="circle">{number}</div> Market Research
+      </h3>
+      <p>
+        {line && <div className="vertical-line"></div>}
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua.
+      </p>
+    </div>
+  );
+}
+
 
 
 const Grow = () => {
@@ -18,30 +34,9 @@ const Grow = () => {
       </div>
 
       <div className="report">
-        <div className="dif-card">
-          <h3>Market Research</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
-          </p>
-        </div>
-        <div className="dif-card">
-          <h3>Market Research</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
-          </p>
-        </div>
-        <div className="dif-card">
-          <h3>Market Research</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
-          </p>
-        </div>
+      {Array.from('ahmed').map((item, index) => {
+        return <Card key={index} number={index+1} line={true} />
+      })}
       </div>
     </div>
   );

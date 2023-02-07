@@ -21,6 +21,12 @@
     justify-content: center;
 }
 
+.grow .dif-card h3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 .grow .dif-card h3, .grow .dif-card p {
     position: relative;
 }
@@ -28,41 +34,38 @@
 .grow .dif-card p {
     width: 70%;
     color: #8F8F8F;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     font-weight: 200;
 }
 
-.grow .dif-card h3::after {
-    content: "1";
-    position: absolute;
-    color: #fff;
-    width: 50px;
-    border-radius: 50%;
-    margin-left: -55px;
-    display: flex;
-    align-items: center;
-    height: 50px;
-    background: #FF6057;
-    /* bottom: -10px; */
-    left: 0;
-    justify-content: center;
-    top: -10px;
+.grow .dif-card h3 .circle {
+        color: #fff;
+            width: 50px;
+            border-radius: 50%;
+            margin-left: -55px;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+            height: 50px;
+            background: #FF6057;
+            /* bottom: -10px; */
+            /* left: 0; */
+            justify-content: center;
 }
 
-.grow .dif-card p::after {
-    content: "";
-        position: absolute;
-        color: #fff;
+.grow .dif-card p .vertical-line {
         width: 5px;
-        /* border-radius: 50%; */
-        margin-left: -33px;
-        display: flex;
-        align-items: center;
-        height: 75px;
-        background: #BCBCBC;
-        /* bottom: -10px; */
-        left: 0;
-        justify-content: center;
-        top: 10px;
+            /* border-radius: 50%; */
+            margin-left: -33px;
+            display: flex;
+            align-items: center;
+            height: 75px;
+            background: #BCBCBC;
+            margin-left: -30px;
+            margin-right: 10px;
+            justify-content: center;
 }
 
 .grow .dif-card:nth-child(3) p::after {
@@ -121,49 +124,21 @@
     }
 
     .grow .dif-card p {
-            margin-left: 149px;
-                width: 50%;
-                text-align: start;
+            width: 90%;
+            padding: 0 2px;
+            margin: 0 auto;
+            box-sizing: border-box;
     }
 
-        .grow .dif-card p::after {
-            content: "";
-            position: absolute;
-            color: #fff;
-            width: 5px;
-            /* border-radius: 50%; */
-            margin-left: -80px;
-            display: flex;
-            align-items: center;
-            height: 75px;
-            background: #BCBCBC;
-            /* bottom: -10px; */
-            left: 0;
-            justify-content: center;
-            top: 10px;
-        }
+        
 
     .grow .dif-card h3 {
     text-align: center;
+    justify-content: center;
         width: 100%;
     }
 
-        .grow .dif-card h3::after {
-            content: "1";
-            position: absolute;
-            color: #fff;
-            width: 60px;
-            border-radius: 50%;
-            margin-left: 50px;
-            display: flex;
-            align-items: center;
-            height: 50px;
-            background: #FF6057;
-            /* bottom: -10px; */
-            left: 0;
-            justify-content: center;
-            top: -11px;
-        }
+        
 
     .grow .report {
         display: flex;
