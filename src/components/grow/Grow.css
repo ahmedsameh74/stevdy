@@ -21,6 +21,10 @@
     justify-content: center;
 }
 
+.grow .dif-card {
+    margin-bottom: 2rem;
+}
+
 .grow .dif-card .h3 {
     display: flex;
     align-items: center;
@@ -61,7 +65,7 @@
             margin-left: -33px;
             display: flex;
             align-items: center;
-            height: 75px;
+            height: 60px;
             background: #BCBCBC;
             margin-left: -30px;
             margin-right: 10px;
