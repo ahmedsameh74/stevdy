@@ -52,6 +52,13 @@
     margin-bottom: 50px;
 }
 
+.testomintals-section .test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+
 .test-card {
     display: flex;
     flex-direction: row;
@@ -84,6 +91,7 @@
     width: 100%;
     /* height: 150px; */
     padding: 20px;
+    margin: 0;
 }
 
 .testomintals-section .test-card .content h3 {
@@ -91,6 +99,7 @@
     font-weight: 700;
     color: #3B3A3A;
     margin: 0;
+    margin-bottom: 5px;
 }
 
 .test-card .content p {
@@ -98,7 +107,11 @@
     font-weight: 200;
     color: #8F8F8F;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.test-card .content p:nth-child(2) {
+    font-weight: 400;
 }
 
 
@@ -138,8 +151,30 @@
 
 }
 
+.testomintals-section .react-multi-carousel-track,
 .carousel-container {
-    width: 100%;
+    filter: none;
+    margin-bottom: 20px !important;
+}
+
+.react-multi-carousel-dot button {
+    border: none !important;
+    background: #8F8F8F !important;
+}
+
+.react-multi-carousel-dot--active button {
+    background: #FF6057 !important;
+}
+
+.custom-dot-list-style {
+    list-style: none;
+    padding: 0;
+    /* margin: 10px 0 !important; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.07));
 }
 
 @media screen and (max-width: 768px) {

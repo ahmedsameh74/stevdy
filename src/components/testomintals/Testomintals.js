@@ -82,24 +82,26 @@ const Testomintals = () => {
           draggable
           dotListClass="custom-dot-list-style"
           arrows={false}
-            autoPlay
+          // autoPlay
           // autoPlaySpeed={2000}
         >
           {slideContent.map((slide, index) => (
-            <div className="test-card" key={index}>
-              <div className="img">
-                <img src={slide.path} alt={slide.path} />
-              </div>
-              <div className="content">
-                <h3>{slide.name}</h3>
-                <p>{slide.title}</p>
-                <p>{slide.text}</p>
-                <div className="stars">
-                  <RateStar
-                    rate={Math.min(5 * 1, 5)}
-                    size={16}
-                    style={{ justifyContent: "spasce-between" }}
-                  />
+            <div className="test">
+              <div className="test-card" key={index}>
+                <div className="img">
+                  <img src={slide.path} alt={slide.path} />
+                </div>
+                <div className="content">
+                  <h3>{slide.name}</h3>
+                  <p>{slide.title}</p>
+                  <p>{slide.text}</p>
+                  <div className="stars">
+                    <RateStar
+                      rate={Math.min(5 * 1, 5)}
+                      size={16}
+                      style={{ justifyContent: "spasce-between" }}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
