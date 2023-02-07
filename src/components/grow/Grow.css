@@ -19,6 +19,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 15px;
 }
 
 .grow .dif-card {
@@ -86,7 +87,7 @@
 
 .grow .report-left h2 {
     /* font-size: 2.5rem; */
-    width: 90%;
+    width: 70%;
     font-weight: 900;
     margin-bottom: 0;
     color: #3B3A3A !important;
@@ -95,6 +96,7 @@
 .grow .report-left p {
     color: #8F8F8F;
     font-weight: 200;
+    width: 80%;
 }
 
 .grow .report-left p:nth-child(3) {
@@ -112,6 +114,10 @@
             box-sizing: border-box;
             margin-top: 20px;
         
+}
+
+.grow .report-left::after {
+    all: unset;
 }
 
 @media screen and (max-width: 768px) {
@@ -184,9 +190,9 @@
         font-weight: 500;
     }
 
-    .grow .report-left::after {
+    /* .grow .report-left::after {
         left: 50%;
         transform: translateX(-50%);
         margin-top: 20px;
-    }
+    } */
 }

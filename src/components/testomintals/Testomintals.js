@@ -71,7 +71,7 @@ const Testomintals = () => {
       </div>
 
       <div className="testomintals-section">
-        <Carousel
+        {/* <Carousel
           responsive={responsive}
           infinite
           keyBoardControl
@@ -106,9 +106,9 @@ const Testomintals = () => {
               </div>
             </div>
           ))}
-        </Carousel>
+        </Carousel> */}
         
-            {/* <div className="test" >
+             <div className="test" >
               <div className="test-card">
                 <div className="img">
                   <img src={slideContent[0].path} alt={slideContent[0].path} />
@@ -126,7 +126,7 @@ const Testomintals = () => {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div> 
         <div className="report-left">
           <h2>Grow Your Business and Join Our Happy Users</h2>
           <p>

@@ -8,7 +8,7 @@
             width: 100%;
             padding: 10% 54px;
             box-sizing: border-box;
-            margin-top: -40px;
+            margin-top: 0;
 }
 
 .best .imgcontainer {
@@ -30,13 +30,10 @@
     width: 70%;
 }
 
-/* .best .report-left {
-    position: relative;
-    text-align: start;
-    margin-left: 5rem;
-    margin-top: 60px;
-    width: 100%;
+.best .report-left {
+    margin-top: 0;
 }
+/* 
 
 .best .report-left h2 {
     width: 90%;

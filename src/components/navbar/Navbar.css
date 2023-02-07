@@ -184,3 +184,20 @@
         width: 0px;
     }
 }
+
+@media screen and (max-width: 1120px) {
+    .center {
+                margin-left: 30px;
+            
+    }
+
+    .center a:last-child {
+        color: #ff6057 !important;
+    }
+}
+
+@media screen and (max-width: 956px) {
+    .center {
+        display: none;
+    }
+}

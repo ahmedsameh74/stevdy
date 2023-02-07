@@ -100,3 +100,10 @@
     margin-top: 20px;
   }
 }
+
+@media screen and (max-width: 995px) {
+.report-left p:nth-child(3) {
+  width: 85%;
+}
+
+}

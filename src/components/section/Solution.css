@@ -161,6 +161,7 @@
 .solution .report-left {
     justify-content: center;
     margin-left: 3rem;
+    margin-top: 7rem !important;
 }
 
 .solution .report-left h2 {
@@ -329,5 +330,17 @@
 
     }
     
+
+}
+
+@media screen and (max-width: 1016px) {
+
+    .solution .report-left {
+            margin-top: 6rem !important;
+        }
+
+                .solution .report-left::after {
+            top: -10px;
+                }
 
 }

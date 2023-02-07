@@ -22,6 +22,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin: 20px 0;
 }
 
 .static {
@@ -80,7 +81,7 @@
 }
 
 .testomintals-section .test-card .img  img{
-    max-width: 250px;
+    width: 250px;
 }
 
 .testomintals-section .test-card .content {
@@ -148,6 +149,7 @@
     border-radius: 10px;
     cursor: pointer;
     box-sizing: border-box;
+    margin-top: 15px;
 
 }
 
@@ -254,5 +256,36 @@
                 .testomintals-section .report-left  {
                     margin-left: auto;
                     margin-right: auto;
+                }
+}
+
+@media screen and (max-width: 1380px) {
+    .testomintals-section .test-card .img img {
+            width: 180px;
+        }
+
+                .testomintals-section .test-card .content h3 {
+                    font-size: 1.3vw;
+                }
+        
+                .test-card .content p {
+                    font-size: 1vw;
+                }
+}
+@media screen and (max-width: 1100px) {
+
+    .test-card {
+        width: 80%;
+    }
+    .testomintals-section .test-card .img img {
+            width: 195px;
+        }
+
+                .testomintals-section .test-card .content h3 {
+                    font-size: 1.3vw;
+                }
+        
+                .test-card .content p {
+                    font-size: 1vw;
                 }
 }
