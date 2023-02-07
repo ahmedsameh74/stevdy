@@ -71,7 +71,7 @@ const Testomintals = () => {
       </div>
 
       <div className="testomintals-section">
-        {/* <Carousel
+        <Carousel
           responsive={responsive}
           infinite
           keyBoardControl
@@ -106,23 +106,9 @@ const Testomintals = () => {
               </div>
             </div>
           ))}
-        </Carousel> */}
-        {/* <Carousel
-          responsive={responsive}
-          infinite
-          keyBoardControl
-          showDots
-          transitionDuration={500}
-          containerClass="carousel-container"
-          itemClass="slide"
-          draggable
-          dotListClass="custom-dot-list-style"
-          arrows={false}
-          autoPlay
-          // autoPlaySpeed={2000}
-        > */}
-          {/* {slideContent.map((slide, index) => ( */}
-            <div className="test" >
+        </Carousel>
+        
+            {/* <div className="test" >
               <div className="test-card">
                 <div className="img">
                   <img src={slideContent[0].path} alt={slideContent[0].path} />
@@ -140,9 +126,7 @@ const Testomintals = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          {/* ))} */}
-        {/* </Carousel> */}
+            </div> */}
         <div className="report-left">
           <h2>Grow Your Business and Join Our Happy Users</h2>
           <p>
