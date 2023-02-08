@@ -42,7 +42,7 @@ const Report = () => {
   };
 
   return (
-    <div className="container" >
+    <div className="container">
       <div className="report-center">
         <h3>Advanced Customer Service Platform</h3>
         <h2>Platform Overview</h2>
