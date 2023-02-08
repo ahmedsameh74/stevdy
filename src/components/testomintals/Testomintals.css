@@ -51,6 +51,7 @@
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
+    gap: 10px;
 }
 
 .testomintals-section .test {
@@ -120,7 +121,7 @@
 .testomintals-section .report-left {
     position: relative;
     text-align: start;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
     margin-top: 0;
     width: 80%;
 }

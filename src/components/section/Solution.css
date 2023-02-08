@@ -1,8 +1,5 @@
 .solution {
-    background: url('../../assets/images/blob.png') no-repeat center center/cover;
     height: 190vh;
-    background-position: 1115% -165%;
-    background-size: auto;
     display: grid;
     grid-template-rows: repeat(2, 1fr) ; 
     justify-items: center;
@@ -27,20 +24,15 @@
         grid-template-columns: 1fr 1fr;
         width: 98vw;
         box-sizing: border-box;
-        /* padding: 0 70px; */
 }
 
 .solution .left {
-    /* width: 30%; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     color: #000;
-    /* margin-left: 2rem; */
-    /* margin-right: 2rem; */
     position: relative;
-    /* margin-top: 1%; */
 
 }
 
@@ -80,7 +72,6 @@
 }
 
 .solution .left p:nth-child(3)
-/* .solution .report-left p:nth-child(3)  */
 {
     color: #FF6057;
     font-weight: 400;
@@ -96,8 +87,6 @@
 }
 
 .solution .right {
-    /* width: 50%; */
-    /* grid-area: right; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-left: 3rem;
@@ -105,7 +94,6 @@
 }
 
 .solution .right .card {
-    /* width: 25%; */
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -149,10 +137,6 @@
 }
 
 .imgcontainer {
-    /* position: absolute;
-    left: 0; */
-    /* grid-template-areas: img; */
-    /* grid-area: img; */
     text-align: start;
     margin-top: 90px;
 
@@ -173,11 +157,33 @@
 }
 
 .solution .report-left::after {
-    top: 40px;
+    top: 80px;
 }
 
 .imgcontainer img {
     width: 100%;
+}
+
+@media screen and (max-width: 1403px) {
+    .solution .report-left::after {
+            top: 40px;
+        }
+
+   
+}
+@media screen and (max-width: 1290px) {
+    .solution .report-left::after {
+            top: 20px;
+        }
+
+   
+}
+@media screen and (max-width: 1140px) {
+    .solution .report-left::after {
+            top: 0px;
+        }
+
+   
 }
 
 
@@ -199,9 +205,6 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
         padding: 10% 0;
-        background-position: 0 0;
-        background-size: cover;
-        /* margin: 20px auto 1045px auto; */
         margin-right: auto;
         margin-left: auto;
     }
@@ -311,44 +314,11 @@
         box-shadow: 0 0 7.5px rgb(0 0 0 / 16%);
     }
 
-    /* .solution .report-left {
-        width: 80%;
-        margin: 50px auto;
-        grid-area: report;
-    }
-
-    .solution .report-left h2 {
-        text-align: center;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .solution .report-left p {
-        text-align: center;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .solution .report-left p:nth-child(3) {
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .solution .report-left::after {
-        left: 50%;
-        transform: translateX(-50%);
-        margin-top: 15px;
-    } */
+    
 
     .imgcontainer {
-        /* position: absolute; */
-        /* left: 50%;
-        transform: translateX(-50%); */
         margin: 90px auto 0 auto;
         text-align: center;
-        grid-area: img;
 
     }
 

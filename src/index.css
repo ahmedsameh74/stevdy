@@ -9,11 +9,19 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('./assets/images/blob.png') no-repeat 543% 25%, url('./assets/images/blob2.svg') no-repeat -412% 47%;
+  background: url('./assets/images/blob.png') no-repeat -1191px 1010px, url('./assets/images/blob2.svg') no-repeat -1052% 47%;
   
       background-size: auto;
-      /* background-position-y: 30%;
-      background-position-x: 445%; */
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background: url('./assets/images/blob.png') no-repeat -1191px 1010px, url('./assets/images/blob2.svg') no-repeat -1052% 47%;
+    
+        background-size: auto;
+  }
+
+  
 }
 
 

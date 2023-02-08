@@ -55,22 +55,7 @@
     .best .report img {
         width: 70%;
     }
-    
-    /* .best .report-left {
-        position: relative;
-        text-align: center;
-        margin-left: 0;
-        margin-top: 60px;
-        width: 100%;
-    }
-    
-    .best .report-left h2 {
-        font-size: 2.5rem;
-        width: 100%;
-        font-weight: 900;
-        margin-bottom: 0;
-        color: #3B3A3A !important;
-    } */
+
     
     .best .report-left p {
         color: #3B3A3A;
@@ -78,7 +63,7 @@
     } 
     
     .best .report-left p:nth-child(3) {
-        color: #fff;
+        color: #ff6057;
         font-weight: 500;
     }
     
